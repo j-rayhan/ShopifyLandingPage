@@ -15,6 +15,11 @@ function App() {
       <Brand />
       {/* Quote */}
       <Quote />
+      {/* Footer */}
+      <footer>
+        <a href="">Terms of Service</a>
+        <a href="">Privacy Policy</a>
+      </footer>
     </main>
   );
 }

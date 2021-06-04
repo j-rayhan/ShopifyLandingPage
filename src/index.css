@@ -192,3 +192,19 @@ main .site-quote button {
     color: var(--white);
     background-color: var(--dark-green);
 }
+
+/* ==============Footer============== */
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  margin: 30px auto;
+  width: 1000px;
+}
+
+footer a {
+  margin-right: 15px;
+  color: var(--dark-green);
+  text-decoration: none;
+  font-weight: 300;
+}
