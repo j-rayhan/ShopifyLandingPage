@@ -193,7 +193,7 @@ main .site-quote button {
     background-color: var(--dark-green);
 }
 
-/* ==============Footer============== */
+/* ============== Footer ============== */
 
 footer {
   display: flex;
@@ -207,4 +207,172 @@ footer a {
   color: var(--dark-green);
   text-decoration: none;
   font-weight: 300;
+}
+
+/* ====================== Media ================ */
+
+@media(max-width: 1242px) {
+  /* Header */
+  main .site-header .free-trial-form {
+      flex-direction: column;
+  }
+
+  main .site-header .free-trial-form input {
+      width: 40%;
+  }
+
+  main .site-header .free-trial-form button {
+      height: 50px;
+      width: 40%;
+      margin-top: 10px;
+      margin-left: 0;
+  }
+
+}
+
+@media(max-width: 484px) {
+  /* Header */
+  main .site-header .free-trial-form {
+      flex-direction: column !important;
+  }
+
+  main .site-header .free-trial-form input {
+      width: 90% !important;
+  }
+
+  main .site-header .free-trial-form button {
+      width: 90% !important;
+      margin-top: 10px !important;
+      margin-left: 0 !important;
+  }
+
+}
+
+@media(max-width: 1080px) {
+
+  /* Header */
+
+  main .site-header .title h1 {
+      font-size: 2rem;
+      font-weight: 500;
+  }
+
+  main .site-header .title p {
+      font-size: 1.3rem;
+      font-weight: 300;
+  }
+
+  main .site-header .header-banner {
+      width: 65%;
+  }
+
+  main .site-header .free-trial-form {
+      flex-direction: row;
+  }
+
+  main .site-header .free-trial-form input {
+      width: 40%;
+  }
+
+  main .site-header .free-trial-form button {
+      height: 50px;
+      width: auto;
+      margin-top: 0;
+      margin-left: 20px;
+      padding: 0 30px;
+  }
+
+  /* Feature */
+
+  main .site-feature {
+      width: 700px;
+  }
+
+  /* Brand */
+
+  main .site-brand {
+      width: 700px;
+  }
+
+  /* Quote */
+
+  main .site-quote {
+      width: 600px;
+  }
+
+  main .site-quote h1 {
+      font-size: 1.3em;
+  }
+
+  /* Footer */
+
+  footer {
+      width: 700px;
+  }
+
+}
+
+@media(max-width: 750px) {
+
+  /* Header */
+
+  main .site-header {
+      height: 90vh;
+  }
+  
+  main .site-header .free-trial-form input {
+      width: 70%;
+  }
+
+  main .site-header .note {
+      width: 80%;
+  }
+
+  main .site-header .header-banner {
+      width: 60%;
+  }
+
+  /* Feature */
+
+  main .site-feature {
+      grid-template-columns: 1fr;
+      width: 100%;
+      padding: 0 30px;
+  }
+
+  main .site-feature div {
+      margin-top: 40px;
+      width: 100%;
+  }
+
+  main .site-feature div img {
+      width: 40px;
+  }
+
+  /* Brand */
+
+  main .site-brand {
+      width: 90%;
+  }
+
+  main .site-brand .brand-img {
+      width: 110px;
+  }
+
+  /* Quote */
+
+  main .site-quote {
+      width: 90%;
+  }
+
+  /* Footer */
+
+  footer {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 90%;
+      margin: 30px auto;
+  }
+
 }
