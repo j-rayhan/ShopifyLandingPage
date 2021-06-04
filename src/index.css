@@ -1,13 +1,109 @@
-body {
+/* ==============Global============== */
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*:focus {
+  outline:none;
+}
+
+html,body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* ================Variables================ */
+
+:root {
+  /* theme color */
+  --dark-green: #008060;
+  --white: #fff;
+  --light-gray: #6B7177;
+  --light-gray1: #D2D5D9;
+  --dark-gray: #131416;
+  --dark-gray1: #212326;
+}
+
+
+/* ====================== header ================ */
+
+main .site-header {
+  position: relative;
+  width: 100%;
+  height: 110vh;
+  background-color: var(--dark-green);
+  text-align: center;
+}
+
+main .site-header .logo {
+  width: 120px;
+  margin-top: 30px;
+}
+
+main .site-header .title h1 {
+  margin-top: 55px;
+  font-size: 3.5rem;
+  letter-spacing: 1px;
+  color: var(--white);
+}
+
+main .site-header .title p {
+  margin-top: 22px;
+  font-size: 2rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: var(--white);
+}
+
+main .site-header .free-trial-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+main .site-header .free-trial-form input {
+  font-size: 1rem;
+  width: 25%;
+  height: 50px;
+  padding: 0 20px;
+  border: 1px solid var(--light-gray);
+  border-radius: 5px;
+}
+
+main .site-header .free-trial-form button {
+  font-size: 1rem;
+  font-weight: 500;
+  white-space: nowrap;
+  margin-left: 20px;
+  height: 50px;
+  padding: 0 30px;
+  border: none;
+  border-radius: 5px;
+  color: var(--white);
+  background-color: var(--dark-gray);
+}
+
+main .site-header .note {
+  width: 35%;
+  margin: 30px auto;
+  color: var(--white);
+  font-size: 0.8rem;
+  font-weight: 100;
+}
+
+main .site-header .header-banner {
+  position: relative;
+  width: 50%;
+  z-index: 1000;
+}
+
+main .site-header .wave {
+  position: absolute;
+  bottom: -10vh;
+  left: 0;
 }
