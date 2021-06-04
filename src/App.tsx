@@ -1,4 +1,5 @@
 import React from 'react';
+import Brand from './components/Brand';
 import Feature from './components/Feature';
 import Header from './components/Header';
 
@@ -9,6 +10,8 @@ function App() {
       <Header />
       {/* Feature */}
       <Feature />
+      {/* Brand */}
+      <Brand />
     </main>
   );
 }
