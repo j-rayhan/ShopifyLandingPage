@@ -1,4 +1,5 @@
 import React from 'react';
+import Feature from './components/Feature';
 import Header from './components/Header';
 
 function App() {
@@ -6,6 +7,8 @@ function App() {
     <main>
       {/* Header */}
       <Header />
+      {/* Feature */}
+      <Feature />
     </main>
   );
 }

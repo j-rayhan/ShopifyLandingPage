@@ -104,6 +104,37 @@ main .site-header .header-banner {
 
 main .site-header .wave {
   position: absolute;
-  bottom: -10vh;
+  bottom: 0;
   left: 0;
+}
+
+
+/* ====================== Feature ================ */
+
+
+main .site-feature {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 1000px;
+  margin: 8% auto;
+  padding: 3% 0;
+}
+
+main .site-feature div { width: 85%;}
+
+main .site-feature div img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+main .site-feature div h3 {
+  margin-top: 20px;
+  color: var(--dark-gray);
+}
+
+main .site-feature div p {
+  margin-top: 20px;
+  color: var(--light-gray);
+  font-weight: 300;
 }
