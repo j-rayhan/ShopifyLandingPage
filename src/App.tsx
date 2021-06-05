@@ -17,8 +17,8 @@ function App() {
       <Quote />
       {/* Footer */}
       <footer>
-        <a href="">Terms of Service</a>
-        <a href="">Privacy Policy</a>
+        <a href="https://">Terms of Service</a>
+        <a href="https://">Privacy Policy</a>
       </footer>
     </main>
   );

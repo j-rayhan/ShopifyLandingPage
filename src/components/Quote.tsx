@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Quote({ }) {
+export default function Quote() {
     return (
         <section className="site-quote">
             <h1>
